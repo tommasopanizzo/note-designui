@@ -1,0 +1,7 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "note-notepad",
+  "type": "registry:component",
+  "title": "Note Notepad",
+  "description": "Ruled notepad note with editable lines."
+}

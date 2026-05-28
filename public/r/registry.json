@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "chumy",
+  "homepage": "https://github.com/tommasopanizzo/note-designui",
+  "items": [
+    {
+      "name": "note-core",
+      "type": "registry:ui",
+      "title": "Note Core",
+      "description": "Editable note components adapted from raw HTML experiments."
+    },
+    {
+      "name": "note-notepad",
+      "type": "registry:component",
+      "title": "Note Notepad",
+      "description": "Ruled notepad note with editable lines."
+    },
+    {
+      "name": "note-cards",
+      "type": "registry:component",
+      "title": "Note Cards",
+      "description": "Free board of editable post-it cards."
+    },
+    {
+      "name": "note-stacked",
+      "type": "registry:component",
+      "title": "Note Stacked",
+      "description": "Editable stacked notes with bring-to-front interaction."
+    }
+  ]
+}

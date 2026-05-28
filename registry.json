@@ -1,0 +1,105 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "chumy",
+  "homepage": "https://github.com/tommasopanizzo/note-designui",
+  "items": [
+    {
+      "name": "note-core",
+      "type": "registry:ui",
+      "title": "Note Core",
+      "description": "Editable note components adapted from raw HTML experiments.",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge",
+        "lucide-react"
+      ],
+      "categories": [
+        "note"
+      ],
+      "files": [
+        {
+          "path": "components/notepad-note.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "components/postit-cards-board.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "components/postit-stacked-board.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "lib/utils.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
+      "name": "note-notepad",
+      "type": "registry:component",
+      "title": "Note Notepad",
+      "description": "Ruled notepad note with editable lines.",
+      "registryDependencies": [
+        "@chumy/note-core"
+      ],
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "categories": [
+        "note"
+      ],
+      "files": [
+        {
+          "path": "registry/default/note-notepad/note-notepad.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "note-cards",
+      "type": "registry:component",
+      "title": "Note Cards",
+      "description": "Free board of editable post-it cards.",
+      "registryDependencies": [
+        "@chumy/note-core"
+      ],
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "categories": [
+        "note"
+      ],
+      "files": [
+        {
+          "path": "registry/default/note-cards/note-cards.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "note-stacked",
+      "type": "registry:component",
+      "title": "Note Stacked",
+      "description": "Editable stacked notes with bring-to-front interaction.",
+      "registryDependencies": [
+        "@chumy/note-core"
+      ],
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "categories": [
+        "note"
+      ],
+      "files": [
+        {
+          "path": "registry/default/note-stacked/note-stacked.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}

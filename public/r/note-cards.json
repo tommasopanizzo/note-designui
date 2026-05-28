@@ -1,0 +1,7 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "note-cards",
+  "type": "registry:component",
+  "title": "Note Cards",
+  "description": "Free board of editable post-it cards."
+}

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "note-core",
+  "type": "registry:ui",
+  "title": "Note Core",
+  "description": "Editable note components adapted from raw HTML experiments."
+}
